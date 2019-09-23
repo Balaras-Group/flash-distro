@@ -1,0 +1,72 @@
+	    SUMMARY OF THE HDF5 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF5 Version: 1.8.20
+		  Configured on: Thu Feb 22 22:03:18 PST 2018
+		  Configured by: adhruv@pfe27
+		 Configure mode: production
+		    Host system: x86_64-unknown-linux-gnu
+	      Uname information: Linux pfe27 4.4.103-92.56.1.20180105-nasa #1 SMP Wed Dec 27 16:24:31 UTC 2017 (2fd2155) x86_64 x86_64 x86_64 GNU/Linux
+		       Byte sex: little-endian
+		      Libraries: static, shared
+	     Installation point: /home3/adhruv/hdf5-1.8.20/hdf5
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C Compiler: /nasa/sgi/mpt/2.14r19/bin/mpicc ( Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux built with gcc version 4.8.5 (SUSE Linux))
+                         CFLAGS: 
+                      H5_CFLAGS: -std=c99 -pedantic -Wall -Wextra -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-qual -Wcast-align -Wwrite-strings -Wconversion -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -Winline -Wfloat-equal -Wmissing-format-attribute -Wmissing-noreturn -Wpacked -Wdisabled-optimization -Wformat=2 -Wunreachable-code -Wendif-labels -Wdeclaration-after-statement -Wold-style-definition -Winvalid-pch -Wvariadic-macros -Winit-self -Wmissing-include-dirs -Wswitch-default -Wswitch-enum -Wunused-macros -Wunsafe-loop-optimizations -Wc++-compat -Wstrict-overflow -Wlogical-op -Wlarger-than=2048 -Wvla -Wsync-nand -Wframe-larger-than=16384 -Wpacked-bitfield-compat -Wstrict-overflow=5 -Wjump-misses-init -Wdouble-promotion -Wsuggest-attribute=const -Wtrampolines -Wstack-usage=8192 -Wvector-operation-performance -Wsuggest-attribute=pure -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -O3
+                      AM_CFLAGS: 
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: -D_GNU_SOURCE -D_POSIX_C_SOURCE=200112L   -DNDEBUG -UH5_DEBUG_API
+                    AM_CPPFLAGS: 
+               Shared C Library: yes
+               Static C Library: yes
+  Statically Linked Executables: no
+                        LDFLAGS: 
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS: 
+ 	 	Extra libraries: -lz -ldl -lm 
+ 		       Archiver: ar
+ 		 	 Ranlib: ranlib
+ 	      Debugged Packages: 
+		    API Tracing: no
+
+Languages:
+----------
+                        Fortran: yes
+               Fortran Compiler: /nasa/sgi/mpt/2.14r19/bin/mpif90 ( built with ifort version 18.0.0 /nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/bin/intel64/fortcom -mGLOB_em64t=TRUE -mP1OPT_version=18.0-intel64 -mGLOB_diag_file=-lpthread.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mGLOB_source_language=GLOB_SOURCE_LANGUAGE_F90 -mP2OPT_static_promotion -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=480 \"-mGLOB_options_string=-I/nasa/sgi/mpt/2.14r19/include -v -lpthread -L/nasa/sgi/mpt/2.14r19/lib -lmpi\" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/ifort9UItAjas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mP2OPT_offload_unique_var_string=ifort1552798419kFYPyi -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/ifortslis2wsibN -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/ifortscript75gcjD \"-mIPOPT_cmdline_link=\"/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o\" \"/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o\" \"/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o\" \"--eh-frame-hdr\" \"--build-id\" \"-dynamic-linker\" \"/lib64/ld-linux-x86-64.so.2\" \"-m\" \"elf_x86_64\" \"-L/nasa/sgi/mpt/2.14r19/lib\" \"-o\" \"a.out\" \"/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/compiler/lib/intel64_lin/for_main.o\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/ipp/lib/intel64\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/compiler/lib/intel64_lin\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/mkl/lib/intel64_lin\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/tbb/lib/intel64/gcc4.1\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/tbb/lib/intel64/gcc4.1\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/daal/lib/intel64_lin\" \"-L/nasa/sgi/mpt/2.14r19/lib\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/compiler/lib/intel64_lin\" \"-L/usr/lib64/gcc/x86_64-suse-linux/4.8/\" \"-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64\" \"-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/\" \"-L/lib/../lib64\" \"-L/lib/../lib64/\" \"-L/usr/lib/../lib64\" \"-L/usr/lib/../lib64/\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/ipp/lib/intel64/\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/compiler/lib/intel64_lin/\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/mkl/lib/intel64_lin/\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/tbb/lib/intel64/gcc4.1/\" \"-L/nasa/intel/Compiler/2018.0.128/compilers_and_libraries_2018.0.128/linux/daal/lib/intel64_lin/\" \"-L/nasa/sgi/mpt/2.14r19/lib/\" \"-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/\" \"-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../\" \"-L/lib64\" \"-L/lib/\" \"-L/usr/lib64\" \"-L/usr/lib\" \"-lpthread\" \"/usr/lib64/libcpuset.so.1\" \"/usr/lib64/libbitmask.so.1\" \"-lmpi\" \"-Bdynamic\" \"-Bstatic\" \"-lifport\" \"-lifcoremt\" \"-limf\" \"-lsvml\" \"-Bdynamic\" \"-lm\" \"-Bstatic\" \"-lipgo\" \"-lirc\" \"-Bdynamic\" \"-lpthread\" \"-Bstatic\" \"-lsvml\" \"-Bdynamic\" \"-lc\" \"-lgcc\" \"-lgcc_s\" \"-Bstatic\" \"-lirc_s\" \"-Bdynamic\" \"-ldl\" \"-lc\" \"/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o\" \"/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o\"\" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_ifortPuW0pK.o -mIPOPT_whole_archive_fixup_file_name=/tmp/ifortwarchEdYa5P -mGLOB_linker_version=2.29.1 -mGLOB_driver_tempfile_name=/tmp/iforttempfileAuXkgG -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_ifortPuW0pK.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.f -mP2OPT_symtab_type_copy=true -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/ifortalisYPHKFq -mIPOPT_generated_tempfiles=/tmp/iforteliswv9CNg -mIPOPT_embedded_object_base_name=/tmp/iforteobjIgGvV6 -mIPOPT_cmdline_link_new_name=/tmp/ifortllis0LXo3W)
+          Fortran 2003 Compiler: 
+                  Fortran Flags: 
+               H5 Fortran Flags:  -O3
+               AM Fortran Flags: 
+         Shared Fortran Library: yes
+         Static Fortran Library: yes
+
+                            C++: yes
+                   C++ Compiler: /nasa/sgi/mpt/2.14r19/bin/mpicxx ( Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux built with gcc version 4.8.5 (SUSE Linux))
+                      C++ Flags: 
+                   H5 C++ Flags:  
+                   AM C++ Flags: 
+             Shared C++ Library: yes
+             Static C++ Library: yes
+
+Features:
+---------
+                  Parallel HDF5: yes
+             High Level library: yes
+                   Threadsafety: no
+            Default API Mapping: v18
+ With Deprecated Public Symbols: yes
+         I/O filters (external): deflate(zlib)
+                            MPE: 
+                     Direct VFD: no
+                        dmalloc: no
+Clear file buffers before write: yes
+           Using memory checker: no
+         Function Stack Tracing: no
+      Strict File Format Checks: no
+   Optimization Instrumentation: no
