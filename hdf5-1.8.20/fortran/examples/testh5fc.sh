@@ -25,7 +25,7 @@ EXIT_SUCCESS=0
 EXIT_FAILURE=1
 
 # Where the tool is installed.
-prefix="${prefix:-/home3/adhruv/hdf5-1.8.20/hdf5}"
+prefix="${prefix:-/Users/Akash/Desktop/flash-lib/hdf5}"
 PARALLEL=yes		# Am I in parallel mode?
 AR="ar"
 RANLIB="ranlib"

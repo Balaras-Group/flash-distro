@@ -1,4 +1,4 @@
-H5timer.lo: H5timer.c H5private.h H5public.h H5pubconf.h H5version.h \
+H5C.lo: H5C.c H5private.h H5public.h H5pubconf.h H5version.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/types.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/appleapiopts.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/cdefs.h \
@@ -166,7 +166,15 @@ H5timer.lo: H5timer.c H5private.h H5public.h H5pubconf.h H5version.h \
  /usr/local/Cellar/gcc@6/6.5.0_5/lib/gcc/6/gcc/x86_64-apple-darwin19.4.0/6.5.0/include/stdbool.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/dirent.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/dirent.h \
- H5win32defs.h
+ H5win32defs.h H5ACprivate.h H5ACpublic.h H5Cpublic.h H5Cprivate.h \
+ H5Fprivate.h H5Fpublic.h H5Ipublic.h H5FDpublic.h H5Pprivate.h \
+ H5Ppublic.h H5Dpublic.h H5Lpublic.h H5Tpublic.h H5Opublic.h H5MMpublic.h \
+ H5Zpublic.h H5Cpkg.h H5SLprivate.h H5Dprivate.h H5FDprivate.h H5FDmpi.h \
+ H5FDmpio.h H5Oprivate.h H5Spublic.h H5Tprivate.h H5Gprivate.h \
+ H5Gpublic.h H5Bprivate.h H5Bpublic.h H5RCprivate.h H5RSprivate.h \
+ H5Rprivate.h H5Rpublic.h H5Zprivate.h H5Sprivate.h H5Eprivate.h \
+ H5Epublic.h H5Epubgen.h H5Fpkg.h H5FLprivate.h H5FOprivate.h \
+ H5FSprivate.h H5FSpublic.h H5Iprivate.h H5MMprivate.h
 
 H5private.h:
 
@@ -513,3 +521,93 @@ H5api_adpt.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/sys/dirent.h:
 
 H5win32defs.h:
+
+H5ACprivate.h:
+
+H5ACpublic.h:
+
+H5Cpublic.h:
+
+H5Cprivate.h:
+
+H5Fprivate.h:
+
+H5Fpublic.h:
+
+H5Ipublic.h:
+
+H5FDpublic.h:
+
+H5Pprivate.h:
+
+H5Ppublic.h:
+
+H5Dpublic.h:
+
+H5Lpublic.h:
+
+H5Tpublic.h:
+
+H5Opublic.h:
+
+H5MMpublic.h:
+
+H5Zpublic.h:
+
+H5Cpkg.h:
+
+H5SLprivate.h:
+
+H5Dprivate.h:
+
+H5FDprivate.h:
+
+H5FDmpi.h:
+
+H5FDmpio.h:
+
+H5Oprivate.h:
+
+H5Spublic.h:
+
+H5Tprivate.h:
+
+H5Gprivate.h:
+
+H5Gpublic.h:
+
+H5Bprivate.h:
+
+H5Bpublic.h:
+
+H5RCprivate.h:
+
+H5RSprivate.h:
+
+H5Rprivate.h:
+
+H5Rpublic.h:
+
+H5Zprivate.h:
+
+H5Sprivate.h:
+
+H5Eprivate.h:
+
+H5Epublic.h:
+
+H5Epubgen.h:
+
+H5Fpkg.h:
+
+H5FLprivate.h:
+
+H5FOprivate.h:
+
+H5FSprivate.h:
+
+H5FSpublic.h:
+
+H5Iprivate.h:
+
+H5MMprivate.h:

@@ -4,30 +4,30 @@
 General Information:
 -------------------
 		   HDF5 Version: 1.8.20
-		  Configured on: Fri Feb 23 11:32:56 PST 2018
-		  Configured by: adhruv@pfe27
+		  Configured on: Wed Dec  9 12:35:31 EST 2020
+		  Configured by: Akash@Akashs-MacBook-Pro.local
 		 Configure mode: production
-		    Host system: x86_64-unknown-linux-gnu
-	      Uname information: Linux pfe27 4.4.103-92.56.1.20180105-nasa #1 SMP Wed Dec 27 16:24:31 UTC 2017 (2fd2155) x86_64 x86_64 x86_64 GNU/Linux
+		    Host system: i386-apple-darwin19.6.0
+	      Uname information: Darwin Akashs-MacBook-Pro.local 19.6.0 Darwin Kernel Version 19.6.0: Thu Oct 29 22:56:45 PDT 2020; root:xnu-6153.141.2.2~1/RELEASE_X86_64 x86_64
 		       Byte sex: little-endian
 		      Libraries: static, shared
-	     Installation point: /home3/adhruv/hdf5-1.8.20/hdf5
+	     Installation point: /Users/Akash/Desktop/flash-lib/hdf5
 
 Compiling Options:
 ------------------
                Compilation Mode: production
-                     C Compiler: /nasa/hpe/mpt/2.17r4/bin/mpicc ( Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --program-suffix=-4.8 --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux built with gcc version 4.8.5 (SUSE Linux))
+                     C Compiler: /usr/local/openmpi-2.1.6/bin/mpicc
                          CFLAGS: 
-                      H5_CFLAGS: -std=c99 -pedantic -Wall -Wextra -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-qual -Wcast-align -Wwrite-strings -Wconversion -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -Winline -Wfloat-equal -Wmissing-format-attribute -Wmissing-noreturn -Wpacked -Wdisabled-optimization -Wformat=2 -Wunreachable-code -Wendif-labels -Wdeclaration-after-statement -Wold-style-definition -Winvalid-pch -Wvariadic-macros -Winit-self -Wmissing-include-dirs -Wswitch-default -Wswitch-enum -Wunused-macros -Wunsafe-loop-optimizations -Wc++-compat -Wstrict-overflow -Wlogical-op -Wlarger-than=2048 -Wvla -Wsync-nand -Wframe-larger-than=16384 -Wpacked-bitfield-compat -Wstrict-overflow=5 -Wjump-misses-init -Wdouble-promotion -Wsuggest-attribute=const -Wtrampolines -Wstack-usage=8192 -Wvector-operation-performance -Wsuggest-attribute=pure -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -O3
+                      H5_CFLAGS:   -std=c99 -pedantic -Wall -W -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-qual -Wcast-align -Wwrite-strings -Wconversion -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -Winline -O -finline-functions
                       AM_CFLAGS: 
                        CPPFLAGS: 
-                    H5_CPPFLAGS: -D_GNU_SOURCE -D_POSIX_C_SOURCE=200112L   -DNDEBUG -UH5_DEBUG_API
+                    H5_CPPFLAGS:   -DNDEBUG -UH5_DEBUG_API
                     AM_CPPFLAGS: 
                Shared C Library: yes
                Static C Library: yes
   Statically Linked Executables: no
                         LDFLAGS: 
-                     H5_LDFLAGS: 
+                     H5_LDFLAGS:  -Wl,-commons,use_dylibs
                      AM_LDFLAGS: 
  	 	Extra libraries: -lz -ldl -lm 
  		       Archiver: ar
@@ -38,10 +38,10 @@ Compiling Options:
 Languages:
 ----------
                         Fortran: yes
-               Fortran Compiler: /nasa/hpe/mpt/2.17r4/bin/mpif90 ( built with ifort version 18.0.0)
+               Fortran Compiler: /usr/local/openmpi-2.1.6/bin/mpif90
           Fortran 2003 Compiler: 
                   Fortran Flags: 
-               H5 Fortran Flags:  -O3
+               H5 Fortran Flags:  
                AM Fortran Flags: 
          Shared Fortran Library: yes
          Static Fortran Library: yes

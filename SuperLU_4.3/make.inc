@@ -21,10 +21,10 @@ PLAT = _linux
 #
 #  The name of the libraries to be created/linked to
 #
-SuperLUroot = /home3/adhruv/SuperLU_4.3
+SuperLUroot = /Users/Akash/Desktop/flash-distro/SuperLU_4.3
 SUPERLULIB  = $(SuperLUroot)/lib/libsuperlu_4.3.a
 BLASDEF     = -DUSE_VENDOR_BLAS
-BLASLIB     = /home3/adhruv/openblas/lib/libopenblas_sandybridgep-r0.2.3.a
+BLASLIB     = /usr/local/lib/libblas.a
 TMGLIB      = libtmglib.a
 LIBS	    = $(SUPERLULIB) $(BLASLIB)
 

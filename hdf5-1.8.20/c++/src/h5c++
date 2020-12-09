@@ -22,7 +22,7 @@
 ## then modify them accordingly to represent the new paths.               ##
 ##                                                                        ##
 ############################################################################
-prefix="/home3/adhruv/hdf5-1.8.20/hdf5"
+prefix="/Users/Akash/Desktop/flash-lib/hdf5"
 exec_prefix="${prefix}"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include"
@@ -57,7 +57,7 @@ LIBSBASE=""
 EXIT_SUCCESS=0
 EXIT_FAILURE=1
 
-host_os="linux-gnu"
+host_os="darwin19.6.0"
 
 prog_name="`basename $0`"
 

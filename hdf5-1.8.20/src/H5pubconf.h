@@ -54,7 +54,7 @@
 /* #undef H5_HAVE_CODESTACK */
 
 /* Define if Darwin or Mac OS X */
-/* #undef H5_HAVE_DARWIN */
+#define H5_HAVE_DARWIN 1
 
 /* Define to 1 if you have the `difftime' function. */
 #define H5_HAVE_DIFFTIME 1
@@ -75,7 +75,7 @@
 #define H5_HAVE_EMBEDDED_LIBINFO 1
 
 /* Define to 1 if you have the <features.h> header file. */
-#define H5_HAVE_FEATURES_H 1
+/* #undef H5_HAVE_FEATURES_H */
 
 /* Define if support for deflate (zlib) filter is enabled */
 #define H5_HAVE_FILTER_DEFLATE 1
@@ -160,7 +160,7 @@
 #define H5_HAVE_LSTAT 1
 
 /* Define to 1 if you have the <mach/mach_time.h> header file. */
-/* #undef H5_HAVE_MACH_MACH_TIME_H */
+#define H5_HAVE_MACH_MACH_TIME_H 1
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define H5_HAVE_MEMORY_H 1
@@ -208,7 +208,7 @@
 #define H5_HAVE_SIGPROCMASK 1
 
 /* Define to 1 if you have the `sigsetjmp' function. */
-/* #undef H5_HAVE_SIGSETJMP */
+#define H5_HAVE_SIGSETJMP 1
 
 /* Define to 1 if you have the `snprintf' function. */
 #define H5_HAVE_SNPRINTF 1
@@ -410,10 +410,10 @@
 #define H5_SIZEOF_INT8_T 1
 
 /* The size of `int_fast16_t', as computed by sizeof. */
-#define H5_SIZEOF_INT_FAST16_T 8
+#define H5_SIZEOF_INT_FAST16_T 2
 
 /* The size of `int_fast32_t', as computed by sizeof. */
-#define H5_SIZEOF_INT_FAST32_T 8
+#define H5_SIZEOF_INT_FAST32_T 4
 
 /* The size of `int_fast64_t', as computed by sizeof. */
 #define H5_SIZEOF_INT_FAST64_T 8
@@ -470,10 +470,10 @@
 #define H5_SIZEOF_UINT8_T 1
 
 /* The size of `uint_fast16_t', as computed by sizeof. */
-#define H5_SIZEOF_UINT_FAST16_T 8
+#define H5_SIZEOF_UINT_FAST16_T 2
 
 /* The size of `uint_fast32_t', as computed by sizeof. */
-#define H5_SIZEOF_UINT_FAST32_T 8
+#define H5_SIZEOF_UINT_FAST32_T 4
 
 /* The size of `uint_fast64_t', as computed by sizeof. */
 #define H5_SIZEOF_UINT_FAST64_T 8

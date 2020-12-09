@@ -36,7 +36,7 @@
 /* #undef HYPRE_LINUX_CHAOS */
 
 /* Define to 1 for Linux platforms */
-#define HYPRE_LINUX 1
+/* #undef HYPRE_LINUX */
 
 /* Define to 1 for Alpha platforms */
 /* #undef HYPRE_ALPHA */
